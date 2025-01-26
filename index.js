@@ -1,4 +1,3 @@
-// Функция для генерации случайного цвета в формате HEX
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
