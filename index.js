@@ -1,4 +1,3 @@
-// Функция для генерации случайного цвета в формате HEX
 function getRandomColor() {
     const letters = '0123456789ABCDEF';
     let color = '#';
@@ -7,9 +6,7 @@ function getRandomColor() {
     }
     return color;
 }
-// Функция для изменения фона на случайный цвет
 function changeBackgroundColor() {
     document.body.style.backgroundColor = getRandomColor();
 }
-// Устанавливаем интервал, чтобы менять фон каждые 2 секунды
 setInterval(changeBackgroundColor, 2000);
